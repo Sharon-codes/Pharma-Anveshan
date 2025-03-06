@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Poster Layout - Vertical</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      text-align: center;
+    }
+    
+    .poster {
+      width: 95%;
+      max-width: 1000px;
+      margin: 20px auto;
+      background-color: white;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      padding: 20px;
+    }
+    
+    .header {
+      background: linear-gradient(to bottom, white, #e6f2ff);
+      padding: 30px 20px;
+      border-bottom: 2px solid #ddd;
+    }
+    
+    .header h1 {
+      font-size: 40px;
+      color: #003366;
+      margin-bottom: 10px;
+    }
+    
+    .header h2 {
+      font-size: 28px;
+      margin: 5px 0;
+    }
+    
+    .header h3 {
+      font-size: 24px;
+      font-style: italic;
+      margin: 5px 0;
+      font-weight: normal;
+    }
+    
+    .section {
+      padding: 25px;
+      border-bottom: 2px solid #eee;
+      text-align: center;
+    }
+    
+    .section h2 {
+      font-size: 30px;
+      color: #006699;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: 3px solid #006699;
+      
+    }
+    
+    .section p, .section ul, .section ol {
+      font-size: 20px;
+      line-height: 1.8;
+      margin: 15px auto;
+      text-align: center;
+      display: inline-block;
+    }
+    
+    .visual {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .visual img {
+      max-width: 100%;
+      height: 300px;
+      border: 2px solid #ddd;
+      max-height: 350px;
+      display: block;
+      margin: 0 auto;
+    }
+    
+    .caption {
+      font-size: 18px;
+      color: #666;
+      margin-top: 8px;
+      text-align: center;
+    }
+    
+    .conference-name {
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 30px;
+      padding-top: 15px;
+      border-top: 2px solid #ccc;
+      text-align: center;
+    }
+  </style>
+</head>
+<div class="poster">
+    <!-- Header Section -->
+    <div class="header">
+      <h1>AI-Enabled Academic-Industry Partnership in Drug Discovery: A Privacy-Preserving Framework</h1>
+      <h2>Sharon Melhi</h2>
+      <h3>Amity University Bangalore</h3>
+    </div>
+    
+    <!-- Introduction Section -->
+    <div class="section">
+      <h2>Introduction</h2>
+      <p>Academic-industry collaborations are vital for drug discovery but face challenges like data privacy and conflicting norms. This framework uses AI to enable secure, efficient knowledge exchange.</p>
+      <p><strong>Key Privacy Tools:</strong></p>
+      
+      <h3>Federated Learning (FL)</h3>
+      <h3>Differential Privacy (DP)</h3>
+      <h3>Homomorphic Encryption (HE)</h3>
+      <h3>Role-Based Access Control (RBAC)</h3>
+
+      <div class="visual">
+        <img src="pic.png" alt="Privacy Meets Collaboration">
+        <div class="caption">Privacy Meets Collaboration</div>
+      </div>
+    </div>
+    
+    <!-- Methodology Section -->
+    <div class="section">
+      <h2>Methodology</h2>
+      <h3>Data Anonymization: Complies with HIPAA/GDPR.</h3>
+      <h3>Federated Learning: Local AI training, no raw data shared.</h3>
+      <h3>Differential Privacy: Noise added during aggregation.</h3>
+      <h3>Homomorphic Encryption: Computations on encrypted data.</h3>
+      <h3>RBAC: Restricts access by role.</h3>
+      <div class="visual">
+        <img src="images.png" alt="Secure Workflow">
+        <div class="caption">Secure Workflow</div>
+      </div>
+    </div>
+    
+    <!-- Case Studies Section -->
+    <div class="section">
+      <h2>Case Studies</h2>
+      <h3>Lead Optimization: 22% faster cycles, 18% more candidates.</h3>
+      <h3>Preclinical Development: 17% faster, 15% higher F1-score.</h3>
+      <h3>Translational Research: 10% higher success rate.</h3>
+      <div class="visual">
+        <img src="efficiency_gains.png" alt="Efficiency Gains">
+        <div class="caption">Efficiency Gains</div>
+      </div>
+    </div>
+    
+    <!-- Results Section -->
+    <div class="section">
+      <h2>Results & Implications</h2>
+      <h3>Enhanced Security: Multi-layered privacy protection.</h3>
+      <h3>Accelerated Innovation: 15–22% faster processes.</h3>
+      <h3>Democratized Research: Inclusive data sharing.</h3>
+      <h3>Challenges: Computational overhead, noise trade-offs.</h3>
+      <div class="visual">
+        <img src="information-15-00697-g001-550.webp" alt="Layered Security">
+        <div class="caption">Layered Security</div>
+      </div>
+    </div>
+    
+    <!-- Conclusion Section -->
+    <div class="section">
+      <h2>Future & Conclusion</h2>
+      <h3>Future: Hybrid models, scalability, regulatory updates.</h3>
+      <h3>Conclusion: Secure, efficient drug discovery with AI.</h3>
+      <h3>Keywords: FL, HE, DP, RBAC, Drug Development.</h3>
+      <div class="visual">
+        <img src="1-s2.0-S266732582400205X-gr2.jpg" alt="Next Steps">
+        <div class="caption">Next Steps</div>
+      </div>
+      <div class="conference-name">
+        <p>Pharma Anveshan 2025</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
